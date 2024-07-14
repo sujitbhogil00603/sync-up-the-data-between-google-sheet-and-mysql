@@ -11,10 +11,10 @@ worksheet = gc.open_by_url('https://docs.google.com/spreadsheets/d/1Dz73RpnRghC6
 
 
 conn = mysql.connector.connect(
-    host="132.148.72.171",
-    user="tps_test",
-    password="Pacific23!",
-    database="tps_test"
+    host="",
+    user="",
+    password="",
+    database=""
 )
 
 cursor = conn.cursor()
